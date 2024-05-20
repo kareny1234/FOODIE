@@ -1,0 +1,41 @@
+.leaflet-container {
+    height: 90vh;
+    width: 100%;
+    position: relative; 
+    z-index: 1; 
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-container {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .leaflet-container {
+        height: 70vh;
+    }
+}
+
+.leaflet-control-zoom {
+    font-size: 1.5em;
+    top: 10px; 
+    left: 10px; 
+    z-index: 999; 
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-control-zoom {
+        font-size: 1.2em;
+        top: 15px; 
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .leaflet-control-zoom {
+        font-size: 1em;
+        top: 20px; 
+        left: 20px;
+    }
+}
